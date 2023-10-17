@@ -13,11 +13,13 @@ The NASA Control Mission project is an ambitious web-based mission control syste
 
 - **History**: Allows users to archive and access previous missions.
 
+
+
 |               Launch UI         |          Upcoming UI              |            History UI                |
 | ----------------------------------- | ----------------------------------- | ----------------------------------- |
-|![Screenshot 2023-10-17 200614](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/cfe1a39c-52f1-4dd4-b954-1b70a7ed2e10) | ![Screenshot 2023-10-17 174929](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/e7170f30-0254-4b17-8918-8ef8767714ba) | ![Screenshot 2023-10-17 175137](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/d20a279d-d856-47c2-8cef-60de4cd26e56) |
+|![Screenshot 2023-10-17 200614](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/25be7af9-c4ff-4bca-b9bb-d18759ec82f6) | ![Screenshot 2023-10-17 174929](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/ac971f4d-e997-4f38-80fe-ec6268408b20) | ![Screenshot 2023-10-17 175137](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/05905584-636c-4348-9559-02baee7b89d9) |
 <div align="center">
-  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/0fa781ae-f611-4662-ad7d-8dfac84b2466" width="780" height="336">
+  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/92e1477f-18a2-40a7-8f24-dfc5aa8b4322" width="780" height="336">
 </div>
 
 ## Technologies
@@ -31,7 +33,7 @@ The NASA Control Mission project is an ambitious web-based mission control syste
 - **Nodemon:** Nodemon helps in automatic server restarts during development.
 - **Concurrently:** This package simplifies running multiple npm scripts concurrently.
 <div align="center">
-  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/d535529b-c39d-419c-a972-b2b4240cca1b" width="700" height="369">
+  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/76913566-4c8e-4abf-a097-a4ce75fb0cfa" width="700" height="369">
 </div>
 
 ### Frontend (React)
