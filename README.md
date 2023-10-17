@@ -1,5 +1,9 @@
 # NASA Control Mission
 
+# My Table of content
+- [Overview](https://github.com/khaledelhannat/nasa-control-mission/edit/main/README.md#overview)
+- [Section 2](#id-section2)
+
 ## Overview
 The NASA Control Mission project is an ambitious web-based mission control system that leverages NASA's Kepler: KOI Table data to identify habitable exoplanets based on essential variables like planetary radius and effective stellar flux. This ReactJS and NodeJS-powered system provides a user-friendly interface to schedule and manage interstellar missions to these identified planets. Here are the key highlights:
 
@@ -68,4 +72,22 @@ On Unix systems (e.g., macOS or Linux), use:
 ```
 5. Access the application in your web browser at http://localhost:8080.
 
+## Contributing
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m 'Add new feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Create a pull request.
 
+## License
+This project is licensed under the MIT License - see the [MIT](https://github.com/khaledelhannat/nasa-control-mission/blob/main/LICENSE) file for details.
+
+## Contact
+
+- **Khaled Elhannat**
+- **Email:** *khaledelhannat@gmail.com*
+- **Website:** *https://khaledelhannat.com* (Underdevelopment)
+- **GitHub:** *https://github.com/khaledelhannat*
+- **LinkedIn:** *https://www.linkedin.com/in/khaledelhannat*
+
+Feel free to reach out if you have any questions or feedback!
