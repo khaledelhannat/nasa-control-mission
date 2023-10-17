@@ -1,0 +1,35 @@
+{
+  "name": "nasa-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "//": "/////////////////////////////////////////",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-g": "npm run install-server && npm run install-client",
+    "install-all": "npm run install-g && npm install",
+    "//": "/////////////////////////////////////////",
+    "build-react": "cd client && npm run build",
+    "deploy": "npm run build-react && npm run server",
+    "build-react-unix": "cd client && npm run build-unix",
+    "deploy-unix": "npm run build-react-unix && npm run server",
+    "//": "/////////////////////////////////////////",
+    "server": "npm run start --prefix server",
+    "client": "npm start --prefix client",
+    "start-all": "concurrently \"npm run server\" \"npm run client\"",
+    "//": "/////////////////////////////////////////",
+    "server-dev": "cd server && npm run watch",
+    "start-all-dev": "concurrently \"npm run server-dev\" \"npm run client\"",
+    "//": "/////////////////////////////////////////",
+    "test-server": "cd server && npm run test",
+    "test-client": "cd client && npm run test",
+    "test-all": "npm run test-server && npm run test-client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
