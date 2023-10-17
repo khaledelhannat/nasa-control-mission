@@ -33,7 +33,7 @@ The NASA Control Mission project is an ambitious web-based mission control syste
 - **Nodemon:** Nodemon helps in automatic server restarts during development.
 - **Concurrently:** This package simplifies running multiple npm scripts concurrently.
 <div align="center">
-  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/76913566-4c8e-4abf-a097-a4ce75fb0cfa" width="700" height="369">
+  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/76913566-4c8e-4abf-a097-a4ce75fb0cfa" width="700" height="400">
 </div>
 
 ### Frontend (React)
