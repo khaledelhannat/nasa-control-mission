@@ -42,7 +42,7 @@ The NASA Control Mission project is an ambitious web-based mission control syste
 ### Version Control
 - **Git:** Version control for tracking changes in your project.
 
-## Installation
+## Installation and Usage 
 Before you begin, make sure you have Node.js and npm installed on your machine.
 
 1. Clone the repository.
