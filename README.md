@@ -19,6 +19,6 @@ The NASA Control Mission project is an ambitious web-based mission control syste
 - **History**: Allows users to archive and access previous missions.
 
 <div align="center">
-  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/0fa781ae-f611-4662-ad7d-8dfac84b2466" width="900" height="388">
+  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/0fa781ae-f611-4662-ad7d-8dfac84b2466" width="780" height="336">
 </div>
 
