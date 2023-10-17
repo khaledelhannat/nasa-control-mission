@@ -38,6 +38,10 @@ The NASA Control Mission project is an ambitious web-based mission control syste
 
 ### Frontend (React)
 - **React:** The project's frontend is developed using React, a popular JavaScript library for building user interfaces.
+- **Arwes:** The `arwes` package is used for creating futuristic and sci-fi-style user interfaces.
+- **React DOM:** This package is essential for rendering React components in the DOM.
+- **React Router DOM:** `react-router-dom` is used for declarative routing and navigation within the React application.
+- **React Scripts:** These scripts simplify building, testing, and running your React app.
 
 ### Version Control
 - **Git:** Version control for tracking changes in your project.
