@@ -1,10 +1,5 @@
 # NASA Control Mission
 
-# My Table of content
-- [Overview](https://github.com/khaledelhannat/nasa-control-mission/edit/main/README.md#overview)
-- [Section 2](#id-section2)
-
-## Overview
 The NASA Control Mission project is an ambitious web-based mission control system that leverages NASA's Kepler: KOI Table data to identify habitable exoplanets based on essential variables like planetary radius and effective stellar flux. This ReactJS and NodeJS-powered system provides a user-friendly interface to schedule and manage interstellar missions to these identified planets. Here are the key highlights:
 
 
