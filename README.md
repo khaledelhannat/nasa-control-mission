@@ -42,3 +42,31 @@ The NASA Control Mission project is an ambitious web-based mission control syste
 ### Version Control
 - **Git:** Version control for tracking changes in your project.
 
+## Installation
+Before you begin, make sure you have Node.js and npm installed on your machine.
+
+1. Clone the repository.
+```bash
+   git clone https://github.com/khaledelhannat/nasa-control-mission.git
+```
+2. Navigate to the project directory.
+```bash
+   cd nasa-control-mission
+```
+3. Install the required dependencies.
+```bash
+   npm run install-all
+```
+4. Start the application.<br>
+On Windows, use:
+```bash
+     npm run deploy
+```
+On Unix systems (e.g., macOS or Linux), use:
+```bash
+    npm run deploy-unix
+```
+5. Access the application in your web browser at http://localhost:8080.
+
+
+
