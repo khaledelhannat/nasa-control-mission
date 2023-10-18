@@ -22,8 +22,8 @@
     "server-dev": "cd server && npm run watch",
     "start-all-dev": "concurrently \"npm run server-dev\" \"npm run client\"",
     "//": "/////////////////////////////////////////",
-    "test-server": "cd server && npm run test",
-    "test-client": "cd client && npm run test",
+    "test-server": "cd server && npm test",
+    "test-client": "cd client && npm test",
     "test-all": "npm run test-server && npm run test-client"
   },
   "keywords": [],
