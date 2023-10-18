@@ -31,9 +31,11 @@ The NASA Control Mission project is an ambitious web-based mission control syste
 - **csv-parse:** The `csv-parse` package is utilized for CSV file parsing.
 - **Morgan:** Morgan is employed for HTTP request logging.
 - **Nodemon:** Nodemon helps in automatic server restarts during development.
+- **Jest:** The `jest` testing framework is used for making some API tests in the project's backend.
+- **Supertest:** The `supertest` npm package enables easy integration testing for the API endpoints.
 - **Concurrently:** This package simplifies running multiple npm scripts concurrently.
 <div align="center">
-  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/76913566-4c8e-4abf-a097-a4ce75fb0cfa" width="700" height="400">
+  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/8a792062-bab3-4844-8cab-d64ccc127687" width="780" height="400">
 </div>
 
 ### Frontend (React)
