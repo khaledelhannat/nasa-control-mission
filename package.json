@@ -9,19 +9,15 @@
     "install-client": "cd client && npm install",
     "install-g": "npm run install-server && npm run install-client",
     "install-all": "npm run install-g && npm install",
-    "//": "/////////////////////////////////////////",
     "build-react": "cd client && npm run build",
     "deploy": "npm run build-react && npm run server",
     "build-react-unix": "cd client && npm run build-unix",
     "deploy-unix": "npm run build-react-unix && npm run server",
-    "//": "/////////////////////////////////////////",
     "server": "npm run start --prefix server",
     "client": "npm start --prefix client",
     "start-all": "concurrently \"npm run server\" \"npm run client\"",
-    "//": "/////////////////////////////////////////",
     "server-dev": "cd server && npm run watch",
     "start-all-dev": "concurrently \"npm run server-dev\" \"npm run client\"",
-    "//": "/////////////////////////////////////////",
     "test-server": "cd server && npm test",
     "test-client": "cd client && npm test",
     "test-all": "npm run test-server && npm run test-client"
@@ -30,6 +26,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.6.0",
     "concurrently": "^8.2.1"
   }
 }
