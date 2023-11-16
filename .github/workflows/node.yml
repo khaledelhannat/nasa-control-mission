@@ -9,6 +9,9 @@ jobs:
     runs-on: windows-latest
     steps: 
       - uses: action/checkout@v4
+        with:
+        repository: khaledelhannat/nasa-control-mission
+        ref: main
       - name: Use Node.js version 18
         uses: actions/setup-node@v4
         with: 
