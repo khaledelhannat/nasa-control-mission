@@ -1,21 +1,23 @@
 name: NASA Project CI
+
 on:
   push:
-    branches: [ main ]
-  pull_request: 
-    branches: [ main ]
-jobs: 
-  build: 
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
     runs-on: windows-latest
-    steps: 
-      - uses: action/checkout@v4
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2  # Updated to v2
         with:
           repository: khaledelhannat/nasa-control-mission
           ref: main
       - name: Use Node.js version 18
         uses: actions/setup-node@v4
-        with: 
+        with:
           node-version: '18.18.0'
       - run: npm run install-all
       - run: npm run build-react
-
