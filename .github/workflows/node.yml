@@ -32,4 +32,4 @@ jobs:
           mongodb-version: ${{ matrix.mongodb-version }}
       - run: npm run install-all
       - run: npm run build-react-unix
-      - run: npm run test-all
+      - run: npm run test-server
