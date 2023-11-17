@@ -3,7 +3,6 @@ const { getAllLaunches, scheduleNewLaunch, existsLaunchWithID, abortLaunchByID }
 const { getPagination } = require('../../services/query');
 
 async function httpGetAllLaunches(req, res) {
-    console.log(req.query)
     const { skip, limit } = getPagination(req.query);
     const launches = await getAllLaunches(skip, limit);
     return res.status(200).json(launches);
@@ -23,7 +22,6 @@ async function httpaddNewLaunch(req, res) {
             error: 'Invalid launch date',
         });
     }
-
     await scheduleNewLaunch(launch);
     return res.status(201).json(launch);
 }

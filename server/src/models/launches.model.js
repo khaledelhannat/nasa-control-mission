@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const launchesDatabase = require('./launches.mongo');
 const planets = require('./planets.mongo');
-const { response } = require('../app');
+// const { response } = require('../app');
 
 const DEFAULT_FLIGHT_NUMBER = 1;
 
@@ -98,6 +98,7 @@ async function savelaunch(launch) {
 }
 
 async function scheduleNewLaunch(launch) {
+
     const planet = await planets.findOne({
         kepler_name: launch.target,
     });
@@ -115,10 +116,7 @@ async function scheduleNewLaunch(launch) {
         success: false,
     });
 
-    let newLaunchReady = [];
-    newLaunchReady.push(newLaunch);
-
-    savelaunch(newLaunchReady);
+    savelaunch(newLaunch);
 }
 
 async function getAllLaunches(skip, limit) {
