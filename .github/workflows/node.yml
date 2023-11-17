@@ -15,7 +15,7 @@ jobs:
       matrix: 
         node-version: [17.x, 18.x]
         mongodb-version: ['6.0']
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2  # Updated to v2
@@ -31,5 +31,5 @@ jobs:
         with:
           mongodb-version: ${{ matrix.mongodb-version }}
       - run: npm run install-all
-      - run: npm run build-react
+      - run: npm run build-react-unix
       - run: npm run test-all
