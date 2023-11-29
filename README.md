@@ -13,14 +13,28 @@ The NASA Control Mission project is an ambitious web-based mission control syste
 
 - **History**: Allows users to archive and access previous missions.
 
+**New Features:**
+- **MongoDB Database**: The project now utilizes MongoDB for data storage and retrieval.
+
+- **Versioning the REST API**: The REST API is now versioned to manage changes and updates effectively.
+
+- **SpaceX REST API Integration**: The application now utilizes the SpaceX REST API to provide real-world launch data for the history and upcoming pages.
+
+- **Paginated Data Responses**: The API has been updated to provide paginated data responses, enhancing performance and user experience.
+
+- **CI/CD using GitHub Actions**: Continuous Integration and Continuous Deployment are implemented using GitHub Actions for automated testing and deployment.
+
+- **Docker Deployment on AWS**: The application is now deployed to Docker containers and released on AWS for improved scalability and accessibility.
+
 
 
 |               Launch UI         |          Upcoming UI              |            History UI                |
 | ----------------------------------- | ----------------------------------- | ----------------------------------- |
-|![Screenshot 2023-10-17 200614](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/25be7af9-c4ff-4bca-b9bb-d18759ec82f6) | ![Screenshot 2023-10-17 174929](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/ac971f4d-e997-4f38-80fe-ec6268408b20) | ![Screenshot 2023-10-17 175137](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/05905584-636c-4348-9559-02baee7b89d9) |
+|![Screenshot 2023-10-17 200614](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/25be7af9-c4ff-4bca-b9bb-d18759ec82f6) | ![Screenshot 2023-10-17 174929](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/ac971f4d-e997-4f38-80fe-ec6268408b20) | ![Screenshot 2023-10-17 175137](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/730af9fd-5d3c-4518-939a-b75664e75cdb) |
 <div align="center">
-  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/92e1477f-18a2-40a7-8f24-dfc5aa8b4322" width="780" height="336">
+  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/bcbda1dc-e409-4d45-8ff2-a4fb87d02d6e" width="780" height="336">
 </div>
+<!-- ![Web capture_29-11-2023_19955_localhost](https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/730af9fd-5d3c-4518-939a-b75664e75cdb) -->
 
 ## Technologies
 
@@ -35,7 +49,7 @@ The NASA Control Mission project is an ambitious web-based mission control syste
 - **Supertest:** The `supertest` npm package enables easy integration testing for the API endpoints.
 - **Concurrently:** This package simplifies running multiple npm scripts concurrently.
 <div align="center">
-  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/8a792062-bab3-4844-8cab-d64ccc127687" width="780" height="400">
+  <img src="https://github.com/khaledelhannat/nasa-control-mission/assets/76536316/6245249c-0f49-4503-9379-102c6c956da1" width="750" height="400">
 </div>
 
 ### Frontend (React)
